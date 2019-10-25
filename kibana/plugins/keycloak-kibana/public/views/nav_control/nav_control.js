@@ -1,9 +1,10 @@
 /* eslint-disable import/no-unresolved */
-import { chromeHeaderNavControlsRegistry, NavControlSide } from 'ui/public/registry/chrome_header_nav_controls';
+import { chromeHeaderNavControlsRegistry } from 'ui/public/registry/chrome_header_nav_controls.js';
 import { I18nContext } from 'ui/i18n';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import NavControlSide from 'ui/public/registry/chrome_header_nav_controls.js';
 import UserNavControl from '../../authz/components/UserNavControl';
 
 chromeHeaderNavControlsRegistry.register((principalProvider) => ({
