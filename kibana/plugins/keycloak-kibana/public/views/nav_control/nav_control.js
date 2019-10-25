@@ -4,7 +4,6 @@ import { I18nContext } from 'ui/i18n';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-/* import { NavControlSide } from 'ui/chrome/directives/header_global_nav'; */
 import UserNavControl from '../../authz/components/UserNavControl';
 
 chromeHeaderNavControlsRegistry.register((principalProvider) => ({
