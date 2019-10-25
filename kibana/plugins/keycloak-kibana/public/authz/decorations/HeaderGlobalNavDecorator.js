@@ -2,7 +2,7 @@
 import overriddenReactDirective from './OverriddenReactDirective';
 import { Header } from 'ui/chrome/directives/header_global_nav/components/header';
 import { wrapInI18nContext } from 'ui/i18n';
-import { chromeHeaderNavControlsRegistry } from 'ui/registry/chrome_header_nav_controls';
+import { chromeHeaderNavControlsRegistry, NavControlSide } from 'ui/public/registry/chrome_header_nav_controls';
 import { getNewPlatform } from 'ui/new_platform';
 
 /**
