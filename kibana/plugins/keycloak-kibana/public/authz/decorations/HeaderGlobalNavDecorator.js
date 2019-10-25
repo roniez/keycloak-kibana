@@ -1,7 +1,7 @@
 /* eslint-disable import/no-unresolved */
 import overriddenReactDirective from './OverriddenReactDirective';
 import { wrapInI18nContext } from 'ui/i18n';
-import { chromeHeaderNavControlsRegistry, NavControlSide } from 'ui/public/registry/chrome_header_nav_controls';
+import { chromeHeaderNavControlsRegistry, NavControlSide } from 'ui/public/registry/chrome_header_nav_controls.js';
 import { getNewPlatform } from 'ui/new_platform';
 
 /**
